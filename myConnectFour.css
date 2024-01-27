@@ -1,0 +1,32 @@
+#board td {
+    /* add a width of 50px
+    add a height of 50px
+    make the border solid, 1 pixel, and the color 666 */
+    width: 100px;
+    height: 100px;
+    border: solid, 1px, #666;
+}
+/*  */
+
+.piece {
+    /* 
+    add a margin of 5px
+    add a width of 80%
+    add a height of 80%
+    add a border radius of 50%
+    */
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+#column-top td {
+    /* add a dashed border that is 1px and lightgray */
+    border: dashed, 1px, lightgray;
+}
+
+#column-top td:hover {
+    /* add a background color of gold */
+    background-color: gold;
+}
